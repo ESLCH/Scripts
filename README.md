@@ -4,3 +4,6 @@ https://github.com/ktaranov/sqlserver-kit/blob/master/Stored_Procedure/dbo.sp_Bl
 
 #Christophe Laporte ConseilIT
 https://github.com/conseilit/sql-docs.fr-fr/tree/live/docs
+
+# tous les scripts
+https://github.com/ktaranov/sqlserver-kit
