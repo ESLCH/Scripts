@@ -1,0 +1,12 @@
+Set-DbatoolsInsecureConnection -SessionOnly
+$targetlist='WIN202201','WIN202211'
+$cred = get-credential
+$splat = @{
+ComputerName    = $targetlist
+Path = '\\W2012R2AD\Backup\PATCHING\CU20\'
+Restart         = $True
+Download        =$false
+ExtractPath     ='\\W2012R2AD\Backup\PATCHING'
+ Confirm         = $False
+ Credential      = $cred
+}
